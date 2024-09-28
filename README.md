@@ -7,7 +7,8 @@
 > spring.datasource.username=YourUsername
 > 
 > spring.datasource.password=YourPassword
-server.port=YourPort
+> 
+>server.port=YourPort
 
  - Запустите проект, выбрав PizzeriaApplication в правом верхнем углу
  
