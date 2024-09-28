@@ -46,18 +46,18 @@
 ## auth
 - register: Регистрация
 	> 	"email" : "почта",
-		"password" : "пароль"
+	>	"password" : "пароль"
 
 - login: Авторизация
 	>	"email" : "почта",
-		"password" : "пароль"
+	>	"password" : "пароль"
 - resetPassword: Сброс пароля
 	>	"email" : "почта"
 	>На указанную почту вы получите следующий эндпоинт:
 	
 	> localhost:YourPort/auth/createNewPassword?email=joebiden74@gmail.com&token=733546f8-bea1-4239-a729-fd8ce49af2cd
 	> вставьте его в свой REST API клиент со следующим телом
-		"password" : "новый пароль"
+		>"password" : "новый пароль"
 
 ## admin 
 > (роль ROLE_ADMIN надо прописать вручную в таблице users_permissions)
@@ -68,11 +68,11 @@
 > 	"email" : "почта разблокируемого"
 - addPizza: добавить пиццу на витрину (нужно обладать ролью ROLE_ADMIN, не иметь роль ROLE_BANNED и быть авторизованным)
 >		"title" : "любое название",
-		"ids" : [
-		"1",
-		"2",
-  		 ...
-		]
+>		"ids" : [
+>		"1",
+>		"2",
+> 		 ...
+>		]
 
 - removePizza: убрать пиццу с витрины (нужно обладать ролью ROLE_ADMIN, не иметь роль ROLE_BANNED и быть авторизованным)
 >	 "ids" : [
