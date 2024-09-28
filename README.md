@@ -5,6 +5,7 @@
 - Настройте файл application.properties:
 
 > spring.datasource.username=YourUsername
+
 spring.datasource.password=YourPassword
 server.port=YourPort
 
