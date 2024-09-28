@@ -12,3 +12,4 @@ server.port=YourPort
  
 ![image info](https://github.com/asssisst781/Dodopizza/blob/main/images/Screenshot_4.png)
 
+- Проект запуститься на вашем локальном сервере и будет доступен по адресу http://localhost:YourPort
