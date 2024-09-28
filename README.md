@@ -47,10 +47,10 @@ server.port=YourPort
 		"password" : "пароль"
 
 - login: Авторизация
-	>		"email" : "почта",
+	>	"email" : "почта",
 		"password" : "пароль"
 - resetPassword: Сброс пароля
-	>		"email" : "почта"
+	>	"email" : "почта"
 	>На указанную почту вы получите следующий эндпоинт:
 	
 	> localhost:YourPort/auth/createNewPassword?email=joebiden74@gmail.com&token=733546f8-bea1-4239-a729-fd8ce49af2cd
