@@ -1,3 +1,2 @@
-  <h1>Запуск проекта<h1>
-  <h4>1. Клонируйте репозиторий:<h4>
+[](https://github.com/asssisst781/Dodopizza/blob/main/images/Screenshot_4.png)
 
